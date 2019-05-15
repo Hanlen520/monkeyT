@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 包名--> 
+    <packagename>com.alashow.live</packagename>
+    <!-- 主activity--> 
+    <mainactivity>.MainActivity</mainactivity>
+    <!-- 白名单activity--> 
+    <whiteactivity>
+    /.MainActivity,
+    /cn.citytag.live.view.activity.LivePlayerActivity,
+    /user.maopao.com.user.view.activity.mine.OthersHomePageActivity,
+    /cn.citytag.live.view.activity.LiveFinishActivity,
+    /cn.citytag.live.view.activity.LiveSearchActivity,
+    /cn.citytag.live.view.activity.LiveRankingActivity,
+    /cn.citytag.live.view.activity.LiveSubHomeActivity,
+    /cn.citytag.live.view.activity.family.FamilyDetailActivity,
+    /cn.citytag.live.view.activity.family.FamilyInformActivity,
+    /cn.citytag.live.view.activity.family.FamilySettingActivity,
+    /cn.citytag.live.view.activity.family.FamilyNoticeActivity,
+    /cn.citytag.live.view.activity.tribe.TribeHomeActivity,
+    /cn.citytag.live.view.activity.tribe.TribeWelfareActivity,
+    /cn.citytag.live.view.activity.tribe.TribeShopActivity,
+    /cn.citytag.live.view.activity.tribe.TribePackageActivity,
+    /user.maopao.com.user.view.activity.bill.MyIncomeTotalDetailActivity,
+    /cn.citytag.live.view.activity.LivePrepareActivity,
+    /cn.citytag.live.view.activity.LiveSongEditActivity,
+    /cn.citytag.live.view.activity.LiveNoticeActivity,
+    /cn.citytag.base.widget.pictureselector.lib.PictureSelectorActivity,
+    /user.maopao.com.user.view.WebViewActivity,
+    /com.maopp.video.view.activity.InviteMainActivity,
+    /cn.citytag.live.view.activity.LiveMissionActivity,
+    /com.maopp.video.view.activity.VideoListActivity
+    </whiteactivity>
+    <!-- 检查时间秒-->
+    <interval>30</interval>
+    <!-- 检查次数-->
+    <count>1500</count>
+</config>
+

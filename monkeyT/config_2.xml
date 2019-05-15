@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 包名--> 
+    <packagename>com.qiuhuo.video</packagename>
+    <!-- 主activity--> 
+    <mainactivity>cn.citytag.video.view.activity.SplashActivity</mainactivity>
+    <!-- 白名单activity--> 
+    <whiteactivity>
+    /cn.citytag.video.view.activity.VideoMainActivity,
+    /cn.citytag.video.view.activity.sidebar.InteractionMessageActivity,
+    /cn.citytag.video.view.activity.sidebar.ChatListActivity,
+    /cn.citytag.video.view.activity.sidebar.IMVideoChatActivity,
+    /cn.citytag.video.view.activity.sidebar.SettingActivity,
+    /cn.citytag.video.view.activity.sidebar.SuggestionsActivity,
+    /cn.citytag.base.widget.pictureselector.lib.PictureSelectorActivity,
+    /cn.citytag.video.view.activity.VideoWebViewActivity,
+    /cn.citytag.video.view.activity.VideoMainActivity,
+    /cn.citytag.video.view.activity.holeful.HopefulMoreActivity,
+    /com.citytag.videoformation.view.activity.VideoRecordActivity,
+    /cn.citytag.video.view.activity.ShortVideoPublishActivity,
+    /cn.citytag.video.view.activity.holeful.ScriptDetailActivity,
+    /cn.citytag.video.view.activity.holeful.ReportListActivity
+
+    </whiteactivity>
+    <!-- 检查时间秒-->
+    <interval>30</interval>
+    <!-- 检查次数-->
+    <count>10</count>
+</config>
+
